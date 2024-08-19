@@ -89,7 +89,7 @@ function Answer() {
           <div className="py-2 border-y-2">
             <h1 className="text-xl font-semibold">Answer From The Community</h1>
           </div>
-          {answers.length > 1 && (
+          {answers.length >= 1 && (
             <>
               {answers.map((answer, index) => {
                 return (
