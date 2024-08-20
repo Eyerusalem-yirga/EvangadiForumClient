@@ -60,7 +60,7 @@ function Question({ searchResults }) {
                 <div className="w-24">
                   <img src={profile} alt="" />
                 </div>
-                <h2 className="text-center">qqqq{question.username}</h2>
+                <h2 className="text-center">{question.username}</h2>
               </div>
               <div className="flex w-11/12 justify-between items-center">
                 <Link to={`./answer/${question.question_id}`}>
